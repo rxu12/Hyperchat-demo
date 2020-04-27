@@ -1,0 +1,6 @@
+version: '3.5'
+services:
+  app:
+    ports:
+    - "3090:3090"
+    # docker-compose --project-name hyper-chat -f ../docker-compose/app.yaml build
